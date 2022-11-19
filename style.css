@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
 .header {
   overflow: hidden;
   background-color: #ecececc9;
@@ -30,18 +31,8 @@ body {
   transition: 1s;
 }
 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 
-  .header-right {
-    float: none;
-  }
-}
-
+/* Hamburger Button */
 .container {
   display: inline-block;
   cursor: pointer;
@@ -70,6 +61,7 @@ body {
   transform: translate(0, -11px) rotate(45deg);
 }
 
+/* Side Navigation */
 .sidenav {
   height: 100%;
   width: 0;
@@ -96,13 +88,4 @@ body {
 
 .sidenav a:hover {
   color: #2e9cca;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
 }
