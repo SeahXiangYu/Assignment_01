@@ -9,27 +9,46 @@
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="script.js"></script>
     <title>RADWIMPS Website</title>
   </head>
   <body>
-    <nav class="header">
-      <a href="./index.html" class="logo">RADWIMPS</a>
-      <nav class="header-right">
-        <a class="active" href="./index.html">Home</a>
-        <a href="./news.html">News</a>
-        <a href="./album.html">Albums</a>
+    <header>
+      <nav class="header desktop-display">
+        <a href="./index.html" class="logo">RADWIMPS</a>
+        <nav class="header-right">
+          <a href="./news.html">News</a>
+          <a href="./album.html">Albums</a>
+        </nav>
       </nav>
-    </nav>
 
-    <div class="no-click">
-      <a href="Images\Suzume No Tojimari Image.jpg" class="responsive">
-        <img class="center" src="Images\Suzume No Tojimari Image.jpg" />
-      </a>
-    </div>
+      <nav class="topnav mobile-display">
+        <a href="./index.html" class="active">RADWIMPS</a>
+        <nav id="myPages">
+          <a href="./news.html">News</a>
+          <a href="./album.html">Albums</a>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
 
-    <div class="button-container">
-      <button>Profile</button>
-    </div>
+    <section>
+      <div class="responsive">
+        <img class="size imgcenter" src="Images\Suzume No Tojimari Image.jpg" />
+      </div>
+    </section>
+
+    <section>
+      <div id="profile" class="responsive">
+        <h1>Profile</h1>
+        <img class="bandimg" src="Images\Radwimps.jpg" />
+      </div>
+    </section>
   </body>
 </html>
