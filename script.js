@@ -1,9 +1,13 @@
-/* TopNav Icon */
-function myFunction() {
-  var x = document.getElementById("myPages");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+/* Fullscreen NavBar */
+function toggleNav() {
+  var element = document.getElementById("myNav");
+  if (element.style.height == "100%") {
+    element.style.height = "0%";
   } else {
-    x.style.display = "block";
+    element.style.height = "100%";
   }
+}
+/* Animated Menu Icon */
+function myFunction(x) {
+  x.classList.toggle("change");
 }
