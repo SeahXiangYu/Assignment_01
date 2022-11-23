@@ -1,6 +1,26 @@
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Font Style */
 nav {
   font-family: "Montserrat";
+}
+
+.mobile-display {
+  display: none;
+}
+.desktop-display {
+  display: block;
+}
+@media (max-width: 500px) {
+  .desktop-display {
+    display: none;
+  }
+  .mobile-display {
+    display: block;
+  }
 }
 
 /*  Header Style */
@@ -40,22 +60,50 @@ nav {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
+/* Mobile Top Navigation Bar */
+.topnav {
+  overflow: hidden;
+  background-color: #f0f8ff;
+  position: relative;
+  padding: 1%;
+}
+
+.topnav #myPages {
+  display: none;
+}
+
+.topnav a {
+  color: #000080;
+  padding: 3% 4%;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  color: #000080;
+  transition: 0.5s;
+}
+
+.active {
+  color: #4d4dff;
+  text-decoration: underline;
 }
 
 /* Responsive Image */
-img {
-  max-width: 1280px;
-  max-height: 720px;
+.size {
+  max-width: 1600px;
+  max-height: 900px;
   padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .responsive {
@@ -63,37 +111,22 @@ img {
   height: auto;
 }
 
-.center {
+.imgcenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
-.no-click {
-  pointer-events: none;
-}
 
-/* Band Profile Button*/
-.button-container {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding-top: 1%;
-}
-
-button {
+/* Band Profile Section */
+#profile {
+  display: block;
   border: 2px solid black;
-  cursor: pointer;
-  font-size: 1.2rem;
-  height: 2.5rem;
-  width: 8rem;
-  color: black;
-  outline: none;
-  border-color: #2196f3;
-  color: dodgerblue;
+  height: 100%;
 }
-
-button:hover {
-  background: #2196f3;
-  color: white;
+.bandimg {
+  display: block;
+  max-width: 30vw;
+  width: 100%;
+  height: auto;
 }
