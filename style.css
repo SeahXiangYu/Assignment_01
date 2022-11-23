@@ -1,3 +1,9 @@
+/* Font Style */
+div {
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
 /*  Header Style */
 .header {
   overflow: hidden;
@@ -36,7 +42,20 @@
 }
 
 /* Responsive Image */
+img {
+  max-width: 1280px;
+  max-height: 720px;
+  padding-top: 1%;
+}
+
 .responsive {
   width: 100%;
   height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
