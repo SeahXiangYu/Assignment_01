@@ -69,3 +69,31 @@ img {
   margin-right: auto;
   width: 100%;
 }
+.no-click {
+  pointer-events: none;
+}
+
+/* Band Profile Button*/
+.button-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+button {
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  width: 8rem;
+  color: black;
+  outline: none;
+  border-color: #2196f3;
+  color: dodgerblue;
+}
+
+button:hover {
+  background: #2196f3;
+  color: white;
+}
