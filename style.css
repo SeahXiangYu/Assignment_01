@@ -39,7 +39,7 @@ div {
   top: 0;
   left: 0;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -56,14 +56,14 @@ div {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #000080;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: #87ceeb;
 }
 
 @media screen and (max-height: 450px) {
@@ -111,6 +111,7 @@ img {
 
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
+  background-color: #000080;
 }
 
 .change .bar2 {
@@ -119,4 +120,5 @@ img {
 
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
+  background-color: #000080;
 }
