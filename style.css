@@ -79,6 +79,9 @@ div {
 img {
   width: 100%;
   height: auto;
+  filter: brightness(90%);
+  filter: contrast(85%);
+  filter: saturate(120%);
 }
 
 .imgcontainer {
@@ -90,6 +93,12 @@ img {
   position: absolute;
   top: 8px;
   right: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 /* Animated Menu Icon */
@@ -121,4 +130,17 @@ img {
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
   background-color: #000080;
+}
+
+/* Logo */
+a.logo {
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #87ceeb;
 }
