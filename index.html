@@ -10,6 +10,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
@@ -17,44 +21,23 @@
     <title>RADWIMPS Website</title>
   </head>
   <body>
-    <header>
-      <!--Desktop Header-->
-      <nav class="header desktop-display">
-        <a href="./index.html" class="logo">RADWIMPS</a>
-        <nav class="header-right">
-          <a href="./news.html">News</a>
-          <a href="./album.html">Albums</a>
-        </nav>
-      </nav>
-
-      <!--Mobile Header-->
-      <nav class="topnav mobile-display">
-        <a href="./index.html" class="active">RADWIMPS</a>
-        <nav id="myPages">
-          <a href="./news.html">News</a>
-          <a href="./album.html">Albums</a>
-        </nav>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
-    </header>
-
-    <!--Big Image-->
-    <section>
-      <div class="responsive">
-        <img class="size imgcenter" src="Images\Suzume No Tojimari Image.jpg" />
-      </div>
-    </section>
-
-    <div class="whitespace desktop-display"></div>
-
-    <!--Band Profile-->
-    <section>
-      <div id="profile" class="responsive">
-        <h1>Profile</h1>
-        <img class="bandimg" src="Images\Radwimps.jpg" />
-      </div>
-    </section>
+    <div class="imgcontainer">
+      <img src="Images/Suzume-No-Tojimari-Image.jpg" />
+      <span onclick="toggleNav()">
+        <div class="menucontainer top-right" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div id="myNav" class="overlay">
+          <div class="overlay-content">
+            <a href="./profile.html">Profile</a>
+            <a href="./news.html">News</a>
+            <a href="./album.html">Albums</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+      </span>
+    </div>
   </body>
 </html>
