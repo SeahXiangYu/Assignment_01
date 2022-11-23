@@ -1,3 +1,4 @@
+/*  Header Style */
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -32,4 +33,10 @@
 
 .header-right {
   float: right;
+}
+
+/* Responsive Image */
+.responsive {
+  width: 100%;
+  height: auto;
 }
