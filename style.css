@@ -93,7 +93,7 @@ nav {
   transition: 0.5s;
 }
 
-.active {
+.topnav a:active {
   color: #4d4dff;
   text-decoration: underline;
 }
