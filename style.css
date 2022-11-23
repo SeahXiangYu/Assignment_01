@@ -118,6 +118,11 @@ nav {
   width: 100%;
 }
 
+/* White Space */
+.whitespace {
+  display: block;
+  height: 3vh;
+}
 /* Band Profile Section */
 #profile {
   display: block;
