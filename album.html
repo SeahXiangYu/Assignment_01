@@ -13,13 +13,26 @@
     <title>RADWIMPS Website</title>
   </head>
   <body>
-    <nav class="header">
-      <a href="./index.html" class="logo">RADWIMPS</a>
-      <nav class="header-right">
-        <a href="./index.html">Home</a>
-        <a href="./news.html">News</a>
-        <a class="active" href="./album.html">Albums</a>
+    <header>
+      <nav class="header desktop-display">
+        <a href="./index.html" class="logo">RADWIMPS</a>
+        <nav class="header-right">
+          <a class="active" href="./index.html">Home</a>
+          <a href="./news.html">News</a>
+          <a href="./album.html">Albums</a>
+        </nav>
       </nav>
-    </nav>
+
+      <nav class="topnav mobile-display">
+        <a href="./index.html" class="active">RADWIMPS</a>
+        <nav id="myLinks">
+          <a href="./news.html">News</a>
+          <a href="./album.html">Albums</a>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
   </body>
 </html>
