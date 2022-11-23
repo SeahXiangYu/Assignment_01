@@ -6,13 +6,13 @@ nav {
 /*  Header Style */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #f0f8ff;
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
-  color: black;
+  color: #000080;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -27,16 +27,28 @@ nav {
 }
 
 .header a:hover {
-  color: black;
+  color: #87ceeb;
+  transition: 0.5s;
 }
 
 .header a.active {
-  color: black;
+  color: #4d4dff;
   text-decoration: underline;
 }
 
 .header-right {
   float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
 }
 
 /* Responsive Image */
