@@ -139,6 +139,7 @@ a.logo {
   font-family: "Roboto";
   text-decoration: none;
   color: white;
+  text-shadow: 1.5px 1.5px black;
 }
 
 a:hover {
