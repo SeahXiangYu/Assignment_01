@@ -76,7 +76,7 @@ div {
 }
 
 /* NavBar/Menu Icon on Image */
-img {
+.suzumeimg {
   width: 100%;
   height: auto;
   filter: brightness(70%);
