@@ -25,44 +25,41 @@
     <title>RADWIMPS Website</title>
   </head>
   <body>
-    <div class="header">
-      <div class="menucontainer top-left">
-        <a href="./index.html" class="logo">RADWIMPS</a>
-      </div>
-      <span onclick="toggleNav()">
-        <div class="menucontainer top-right" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+    <header>
+      <!--Header-->
+      <div class="header">
+        <div class="menucontainer top-left">
+          <a href="./index.html" class="logo">RADWIMPS</a>
         </div>
-        <div id="myNav" class="overlay">
-          <div class="overlay-content">
-            <a href="./profile.html">Profile</a>
-            <a href="./news.html">News</a>
-            <a href="./album.html">Albums</a>
-            <a href="./contact.html">Contact</a>
+        <!--Menu Icon-->
+        <span onclick="toggleNav()">
+          <div class="menucontainer top-right" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </div>
-        </div>
-      </span>
-    </div>
+          <!--Toggle Overlay Curtain NavBar-->
+          <nav>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="./profile.html">Profile</a>
+                <a href="./news.html">News</a>
+                <a href="./album.html">Albums</a>
+                <a href="./contact.html">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </span>
+      </div>
+    </header>
 
-    <div class="top-text">Suzume No Tojimari</div>
-    <div class="bottom-text">Soundtracks by RADWIMPS</div>
-
-    <div class="imgcontainer">
-      <img src="Images/Suzume-No-Tojimari-Image.jpg" />
-    </div>
-
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-
+    <section>
+      <!--Image with Text-->
+      <div class="top-text">Suzume No Tojimari</div>
+      <div class="bottom-text">Soundtracks by RADWIMPS</div>
+      <div class="imgcontainer">
+        <img src="Images/Suzume-No-Tojimari-Image.jpg" />
+      </div>
+    </section>
   </body>
 </html>
