@@ -123,8 +123,8 @@ div {
   transform: translate(0, -0.7vw) rotate(45deg);
 }
 
-/* Logo */
-.logo {
+/* Header Logo */
+.headerlogo {
   position: fixed;
   font-size: 2vw;
   font-weight: 100;
@@ -181,4 +181,54 @@ a:hover {
   font-weight: 550;
   font-size: 2.5vw;
   z-index: 0;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  padding: 1.8vw;
+  background: #003366;
+  z-index: 1;
+}
+
+/* Footer Logo */
+.footerlogo {
+  position: fixed;
+  font-size: 2vw;
+  font-weight: 100;
+  font-family: "Big Shoulders Display";
+  text-decoration: none;
+  color: #f0f8ff;
+}
+
+/* Social Media Links */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
