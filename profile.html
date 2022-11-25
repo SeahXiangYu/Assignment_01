@@ -10,7 +10,11 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
+      href="https://fonts.googleapis.com/css?family=Big Shoulders Display"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Heebo"
       rel="stylesheet"
     />
     <link
@@ -19,24 +23,35 @@
     />
     <script src="script.js"></script>
     <title>RADWIMPS Website</title>
+    <link rel="icon" type="image/jpg " href="/Images/RADWIMPS Favicon.jpg" />
   </head>
   <body>
-    <div class="imgcontainer"></div>
-      <span onclick="toggleNav()">
-        <div class="menucontainer top-right" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+    <header>
+      <!--Header-->
+      <div class="header">
+        <div class="menucontainer top-left">
+          <a href="./index.html" class="logo">RADWIMPS</a>
         </div>
-        <div id="myNav" class="overlay">
-          <div class="overlay-content">
-            <a href="./profile.html">Profile</a>
-            <a href="./news.html">News</a>
-            <a href="./album.html">Albums</a>
-            <a href="./contact.html">Contact</a>
+        <!--Menu Icon-->
+        <span onclick="toggleNav()">
+          <div class="menucontainer top-right" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </div>
-        </div>
-      </span>
-    </div>
+          <!--Toggle Overlay Curtain NavBar-->
+          <nav>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="./profile.html">Profile</a>
+                <a href="./news.html">News</a>
+                <a href="./album.html">Albums</a>
+                <a href="./contact.html">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </span>
+      </div>
+    </header>
   </body>
 </html>
