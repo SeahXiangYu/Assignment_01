@@ -10,6 +10,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css?family=Big Shoulders Display"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
@@ -21,26 +25,31 @@
     <title>RADWIMPS Website</title>
   </head>
   <body>
+    <div class="header">
+      <div class="menucontainer top-left">
+        <a href="./index.html" class="logo">RADWIMPS</a>
+      </div>
+      <span onclick="toggleNav()">
+        <div class="menucontainer top-right" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div id="myNav" class="overlay">
+          <div class="overlay-content">
+            <a href="./profile.html">Profile</a>
+            <a href="./news.html">News</a>
+            <a href="./album.html">Albums</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+      </span>
+    </div>
+
+    <div class="center">Suzume No Tojimari</div>
+
     <div class="imgcontainer">
       <img src="Images/Suzume-No-Tojimari-Image.jpg" />
     </div>
-    <div class="menucontainer top-left">
-      <a href="./index.html" class="logo">RADWIMPS</a>
-    </div>
-    <span onclick="toggleNav()">
-      <div class="menucontainer top-right" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-      <div id="myNav" class="overlay">
-        <div class="overlay-content">
-          <a href="./profile.html">Profile</a>
-          <a href="./news.html">News</a>
-          <a href="./album.html">Albums</a>
-          <a href="./contact.html">Contact</a>
-        </div>
-      </div>
-    </span>
   </body>
 </html>

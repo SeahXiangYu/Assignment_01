@@ -89,18 +89,6 @@ img {
   text-align: center;
 }
 
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
 /* Animated Menu Icon */
 .menucontainer {
   display: inline-block;
@@ -113,14 +101,13 @@ img {
 .bar3 {
   width: 35px;
   height: 5px;
-  background-color: white;
+  background-color: #000080;
   margin: 6px 0;
   transition: 0.4s;
 }
 
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
-  background-color: #000080;
 }
 
 .change .bar2 {
@@ -129,19 +116,49 @@ img {
 
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
-  background-color: #000080;
 }
 
 /* Logo */
 a.logo {
   font-size: 2vw;
-  font-weight: 900;
-  font-family: "Roboto";
+  font-weight: 100;
+  font-family: "Big Shoulders Display";
   text-decoration: none;
-  color: white;
-  text-shadow: 1.5px 1.5px black;
+  color: #000080;
 }
 
 a:hover {
   color: #87ceeb;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  background: #f0f8ff;
+  color: white;
+  font-size: 30px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Words On Image */
+.center {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 5vw;
+  z-index: 1;
 }
