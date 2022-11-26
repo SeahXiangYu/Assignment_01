@@ -46,6 +46,7 @@ div {
   background-color: rgba(255, 255, 255, 0.95);
   overflow-y: hidden;
   transition: 0.5s;
+  pointer-events: none;
 }
 
 .overlay-content {
@@ -54,6 +55,7 @@ div {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  pointer-events: all;
 }
 
 .overlay a {
@@ -187,9 +189,9 @@ a:hover {
 .footer {
   position: relative;
   bottom: 0;
-  padding: 1.8vw;
+  padding: 0.5vw 1vw;
   background: #003366;
-  z-index: 1;
+  z-index: 0;
 }
 
 /* Footer Logo */
@@ -204,31 +206,47 @@ a:hover {
 
 /* Social Media Links */
 .fa {
-  padding: 20px;
+  position: relative;
+  padding: 10px;
   font-size: 30px;
-  width: 30px;
+  width: 15px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 2.5vw 0px;
   border-radius: 50%;
 }
 
+.facontainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  z-index: 0;
+}
+
 .fa-facebook {
-  background: #3b5998;
-  color: white;
+  background-color: white;
+  color: black;
+  margin-right: 5px;
 }
 
 .fa-twitter {
-  background: #55acee;
-  color: white;
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.fa-youtube {
-  background: #bb0000;
-  color: white;
+.fa-youtube-play {
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
 }
