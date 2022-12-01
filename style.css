@@ -127,7 +127,7 @@ div {
 
 /* Header Logo */
 .headerlogo {
-  position: fixed;
+  position: relative;
   font-size: 2vw;
   font-weight: 100;
   font-family: "Big Shoulders Display";
@@ -196,7 +196,7 @@ a:hover {
 
 /* Footer Logo */
 .footerlogo {
-  position: fixed;
+  position: relative;
   font-size: 2vw;
   font-weight: 100;
   font-family: "Big Shoulders Display";
@@ -249,4 +249,59 @@ a:hover {
   color: black;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+/* Band Image on Profile Page */
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.radwimpsimg {
+  width: 48%;
+  height: auto;
+  padding: 3%;
+}
+
+.profile-heading {
+  display: inline-flex;
+  padding-right: 3%;
+  padding-top: 7%;
+  font-size: 25px;
+}
+
+.profile-text {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-right: 25%;
+  font-size: 18px;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2%;
+  padding-bottom: 8%;
+}
+
+.member-box {
+  display: inline-flex;
+  flex-direction: column;
+  padding-inline: 3%;
+  border-left: 2px solid #808080;
+  border-right: 2px solid #808080;
+}
+.member-name {
+  display: inline-flex;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+.member-content {
+  display: inline-flex;
+  justify-content: center;
+  padding: 5%;
 }
