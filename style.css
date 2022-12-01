@@ -227,6 +227,7 @@ a:hover {
 .fa-facebook {
   background-color: white;
   color: black;
+  margin-left: 5px;
   margin-right: 5px;
 }
 
@@ -274,7 +275,7 @@ a:hover {
   display: inline-flex;
   flex-direction: column;
   padding-top: 2%;
-  padding-right: 25%;
+  padding-right: 5%;
   font-size: 18px;
 }
 
@@ -295,6 +296,7 @@ a:hover {
 }
 .member-name {
   display: inline-flex;
+  justify-content: center;
   font-size: 22px;
   font-weight: 600;
   padding-top: 5%;
