@@ -284,7 +284,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-around;
   padding-top: 2%;
-  padding-bottom: 8%;
+  padding-bottom: 5%;
 }
 
 .member-box {
@@ -311,7 +311,9 @@ a:hover {
 .history-container {
   display: flex;
   flex-direction: column;
-  padding: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
 }
 
 .history-heading {
@@ -325,19 +327,22 @@ a:hover {
   flex-direction: row;
   padding-top: 1%;
   padding-bottom: 1%;
-  border-bottom: 2px solid #808080;
+  border-bottom: 1px solid #808080;
 }
 
 .history-year {
-  display: inline-flex;
+  display: inline-block;
   font-size: 28px;
   font-weight: 400;
-  padding-right: 7.5%;
+  width: 100px;
+  padding-right: 5%;
 }
 
 .history-text {
-  display: inline-flex;
+  display: flex;
   font-size: 20px;
   font-weight: 400;
+  padding-left: 5%;
   flex-direction: column;
+  justify-content: center;
 }
