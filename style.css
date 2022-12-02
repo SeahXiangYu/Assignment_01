@@ -307,3 +307,37 @@ a:hover {
   justify-content: center;
   padding: 5%;
 }
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.history-heading {
+  display: inline-flex;
+  font-size: 30px;
+  padding-bottom: 1%;
+}
+
+.history-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 2px solid #808080;
+}
+
+.history-year {
+  display: inline-flex;
+  font-size: 28px;
+  font-weight: 400;
+  padding-right: 7.5%;
+}
+
+.history-text {
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: 400;
+  flex-direction: column;
+}
