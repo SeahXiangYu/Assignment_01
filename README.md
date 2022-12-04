@@ -13,16 +13,16 @@ In the contact page, the user can fill up a form and submit an inquiry.
 # Features
 
 ## Existing Features
-    * Animated Menu Icon - Upon clicking the menu icon, the icon changes to a cross, and upon clicking on it again, returns to its original look
-    * Overlay Navigation Menu - Clicking on the menu icon drops a overlay where users can use to navigate to other pages
-    * Logo - Redirects user back to main page
-    * Footer - Has social media icons redirecting to RADWIMPS' respective social media
-    * Smooth Scroll - When the user clicks on the album cover, the page will scroll to the respective section the embeded playlist is located at
+* Animated Menu Icon - Upon clicking the menu icon, the icon changes to a cross, and upon clicking on it again, returns to its original look
+* Overlay Navigation Menu - Clicking on the menu icon drops a overlay where users can use to navigate to other pages
+* Logo - Redirects user back to main page
+* Footer - Has social media icons redirecting to RADWIMPS' respective social media
+* Smooth Scroll - When the user clicks on the album cover, the page will scroll to the respective section the embeded playlist is located at
 
 ## Features Left to Implement
-    * Would be better if the album scrolls to a section where the playlist is collapsed, and user can open it when they want.
-    * Contact page currently does not store any information and is a dummy feature, so would like to make it useful
-    * Certain parts of the website is not really responsive, especially the transition between desktop to mobile 
+* Would be better if the album scrolls to a section where the playlist is collapsed, and user can open it when they want.
+* Contact page currently does not store any information and is a dummy feature, so would like to make it useful
+* Certain parts of the website is not really responsive, especially the transition between desktop to mobile 
 
 # Technologies Used
 * HTML
@@ -41,20 +41,20 @@ In the contact page, the user can fill up a form and submit an inquiry.
 # Credits
 
 ## Content
-    * https://radwimps.jp/news/
-    * https://radwimps.jp/biography/
-    * https://en.wikipedia.org/wiki/Radwimps
-    * https://en.wikipedia.org/wiki/Radwimps#Discography
+* https://radwimps.jp/news/
+* https://radwimps.jp/biography/
+* https://en.wikipedia.org/wiki/Radwimps
+* https://en.wikipedia.org/wiki/Radwimps#Discography
 
 ## Media
-    * Main Page Image:
-      * Desktop: https://wall.alphacoders.com/big.php?i=1198137&lang=German
-      * Mobile: https://wall.alphacoders.com/big.php?i=1276272
-    * Profile Page:
-      * https://www.otaquest.com/radwimps-music/
-    * Album Covers
-      * https://radwimps.jp/discography/album/
+* Main Page Image:
+  * Desktop: https://wall.alphacoders.com/big.php?i=1198137&lang=German
+  * Mobile: https://wall.alphacoders.com/big.php?i=1276272
+* Profile Page:
+  * https://www.otaquest.com/radwimps-music/
+* Album Covers
+  * https://radwimps.jp/discography/album/
 
 ## Acknowledgements
-    * https://radwimps.jp/
-    * https://www.yoasobi-music.jp/
+* https://radwimps.jp/
+* https://www.yoasobi-music.jp/
