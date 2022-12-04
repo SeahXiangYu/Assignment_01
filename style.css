@@ -414,6 +414,10 @@ a:hover {
   margin: 0.65%;
 }
 
+iframe {
+  border: 0;
+}
+
 /* Contact Form */
 .contact-form {
   display: flex;
