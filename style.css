@@ -423,6 +423,12 @@ iframe {
   border: 2px solid red;
 }
 
+.gallery-img {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* Contact Form */
 .contact-form {
   display: flex;
