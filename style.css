@@ -26,7 +26,7 @@ div {
 .desktop-display {
   display: block;
 }
-@media (max-width: 477px) {
+@media (max-width: 500px) {
   .desktop-display {
     display: none;
   }
@@ -89,6 +89,13 @@ div {
   filter: brightness(70%);
   filter: contrast(90%);
   filter: saturate(130%);
+}
+
+.suzumeimg-mobile {
+  object-fit: cover;
+  object-position: center;
+  height: 850px;
+  width: 100%;
 }
 
 .imgcontainer {
@@ -162,30 +169,63 @@ a:hover {
 }
 
 /* Words On Image */
-.top-text {
-  position: absolute;
-  top: 369px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: "Heebo";
-  font-weight: 900;
-  font-size: 96px;
-  z-index: 0;
+@media screen and (min-width: 501px) {
+  .top-text {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #003366;
+    font-family: "Heebo";
+    font-weight: 900;
+    font-size: 96px;
+    z-index: 0;
+  }
+
+  .bottom-text {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #003366;
+    font-family: "Heebo";
+    font-weight: 550;
+    font-size: 48px;
+    z-index: 0;
+  }
 }
 
-.bottom-text {
-  position: absolute;
-  top: 470px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: "Heebo";
-  font-weight: 550;
-  font-size: 48px;
-  z-index: 0;
-}
+@media screen and (max-width: 500px) {
+  .top-text {
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Heebo";
+    font-weight: 900;
+    font-size: 35px;
+    z-index: 0;
+    text-align: center;
+  }
 
+  .bottom-text {
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Heebo";
+    font-weight: 550;
+    font-size: 20px;
+    z-index: 0;
+    text-align: center;
+  }
+}
 /* Footer */
 .footer {
   position: relative;
