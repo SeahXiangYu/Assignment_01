@@ -420,24 +420,88 @@ iframe {
 /* Album Gallery */
 .gallery-container {
   display: flex;
-  border: 2px solid red;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .gallery-img {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: flex;
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .album-img {
   display: block;
-  width: 30%;
+  width: 25em;
   height: auto;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
+  border: 1px solid #000080;
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(240, 248, 255, 0.75);
+}
+
+.gallery-img:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.album-name {
+  color: #000080;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#suzume {
+  display: flex;
+  padding: 3%;
+}
+#the-last-ten-years {
+  display: flex;
+  padding: 3%;
+}
+#forever-daze {
+  display: flex;
+  padding: 3%;
+}
+#ten-years-ten-songs {
+  display: flex;
+  padding: 3%;
+}
+
+#weathering-with-you {
+  display: flex;
+  padding: 3%;
+}
+#anti-anti-generation {
+  display: flex;
+  padding: 3%;
+}
+#human-bloom {
+  display: flex;
+  padding: 3%;
+}
+#your-name {
+  display: flex;
+  padding: 3%;
 }
 
 /* Contact Form */
