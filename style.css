@@ -418,6 +418,10 @@ iframe {
   border: 0;
 }
 /* Album Gallery */
+.gallery-container {
+  display: flex;
+  border: 2px solid red;
+}
 
 /* Contact Form */
 .contact-form {
